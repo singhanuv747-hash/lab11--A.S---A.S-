@@ -1,5 +1,5 @@
 # https://github.com/singhanuv747-hash/lab11--A.S---A.S-.git
-# Partner 1: <Your Name>
+# Partner 1: <Anuv Singh>
 # Partner 2: None
 
 import math
