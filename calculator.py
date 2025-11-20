@@ -15,23 +15,23 @@ def hypotenuse(a, b):
 def add(a, b):
     return a + b
 
-def subtract(a, b):
+def sub(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
-def divide(a, b):
-    if a == 0:  
+def div(a, b):
+    if a == 0:
         raise ZeroDivisionError("Cannot divide by zero")
     return b / a
 
-def logarithm(a, b):
+def log(a, b):
     if a <= 0:
         raise ValueError("Logarithm undefined for this input")
     if b <= 0 or b == 1:
         raise ValueError("Invalid base")
     return math.log(a, b)
 
-def exponent(a, b):
+def exp(a, b):
     return a ** b
